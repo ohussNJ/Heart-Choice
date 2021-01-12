@@ -1,6 +1,5 @@
 public class HeartChoice {
 
-    /* ------ Instance variables  -------- */
 
     // Person array, each Person is read from the data file
     private Person[] listOfPatients;
@@ -45,7 +44,7 @@ public class HeartChoice {
      *    Each line refers to one Person.
      * 
      * 3) Inserts each person from file into listOfPatients
-     *    Hint: uses addPerson() method
+     * 
      * 
      * Returns the number of patients read from file
      */
@@ -216,8 +215,7 @@ public class HeartChoice {
      * If numberOfHeartsAvailable is greater than listOfPatients
      * array size all Persons will receive a transplant.
      * 
-     * There is no correct solution, you may come up with any set of
-     * persons from the listOfPatients array.
+     * 
      */ 
     public Person[] match(int numberOfHearts) {
 
